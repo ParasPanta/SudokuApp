@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgba(209, 235, 236, 0.541);
+}
+
+.navbar {
+  width: 100%;
+  height: 4rem;
+  display: flex;
+  background-color: rgba(19, 19, 235, 0.842);
+  border: 2px solid rgb(12, 9, 184);
+  /* border-radius: 8px; */
+  margin: 0 0 4px 0;
+}
+
+.link {
+  position: absolute;
+  left: 2%;
+  height: 4rem;
+  color: azure;
+}
+
+.clock {
+  position: absolute;
+  height: 4rem;
+  right: 5%;
+  color: azure;
+  font-size: 2rem;
+}
+
+.center {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.cell {
+  font-size: 3rem;
+  background-color: aqua;
+  width: 3.5rem;
+  height: 3.5rem;
+  border: 1px solid black;
+}
+
+textarea{
+  resize: none;
+  border: none;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  text-align: center;
+  align-items: center;
+  font-size: 2.5rem;
+
+  /* Removing Caret */
+  color: transparent;
+  text-shadow: 0 0 0#000;
+
+  cursor: pointer;
+
+  /* Removing Selection */
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  user-select: none;
+}
+
+textarea:focus{
+  z-index: 5;
+  outline: 4px solid blue;
+}
+
+.row {
+  display: flex;
+}
+
+.box {
+  border: 2px solid black;
+}
+
+.grid {
+  position: absolute;
+  left: 10%;
+  margin-top: 1rem;
+}
